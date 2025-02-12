@@ -4,13 +4,24 @@
     {
         static void Main(string[] args)
         {
-            CalcAddition(3, 2);
+            Console.WriteLine("Enter the first number: ");
+            string inputText1 = Console.ReadLine();
 
-            CalcSubtraction(3, 2);
+            Console.WriteLine("Enter the second number: ");
+            string inputText2 = Console.ReadLine();
 
-            CalcMultiplication(3, 2);
+            double.TryParse(inputText1, out double inputNumber1);
+            double.TryParse(inputText2, out double inputNumber2);
 
-            CalcDivide(3, 0);
+
+
+            CalcAddition(inputNumber1, inputNumber2);
+
+            CalcSubtraction(inputNumber1, inputNumber2);
+
+            CalcMultiplication(inputNumber1, inputNumber2);
+
+            CalcDivide(inputNumber1, inputNumber2);
 
         }
         public static void CalcAddition(double number1, double number2)
@@ -43,6 +54,17 @@
             {
 
                 throw new DivideByZeroException();
+            }
+        }
+
+        public void SwitchOption(string option, double number1, double number2)
+        {
+            switch (option)
+            {
+                case 1
+                    CalcAddition(number1, number2);
+                default:
+                    break;
             }
         }
 
