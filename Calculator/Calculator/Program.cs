@@ -57,16 +57,16 @@
             }
         }
 
-        public void SwitchOption(string option, double number1, double number2)
-        {
-            switch (option)
-            {
-                case 1
-                    CalcAddition(number1, number2);
-                default:
-                    break;
-            }
-        }
+        //public void SwitchOption(string option, double number1, double number2)
+        //{
+        //    switch (option)
+        //    {
+        //        case 1
+        //            CalcAddition(number1, number2);
+        //        default:
+        //            break;
+        //    }
+        //}
 
 
     }
