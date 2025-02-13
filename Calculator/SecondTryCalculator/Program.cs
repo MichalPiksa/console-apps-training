@@ -4,53 +4,43 @@
     {
         static void Main(string[] args)
         {
-            double inputNumber1;
-            double inputNumber2;
-
-            bool flag = true;
-            while (flag) 
-            { 
-                Console.WriteLine("Enter first number:");
-                var textNumber1 = Console.ReadLine();
-
-                if (!string.IsNullOrWhiteSpace(textNumber1))
-                {
-                    double.TryParse(textNumber1, out inputNumber1);
-                }
-            }
-
-
-
-            Console.WriteLine("Enter second number:");
-            var textNumber2 = Console.ReadLine();
-
-            if (!string.IsNullOrWhiteSpace(textNumber2))
-            {
-                double.TryParse(textNumber2, out inputNumber2);
-            }
-            else
-            {
-                inputNumber2 = 0;
-            }
+            var number1 = InputNumberCheck("first");
+            var number2 = InputNumberCheck("second");
 
             Console.WriteLine("Enter operator '+' or '-' or '*' or '/'");
             var inputOperator = Console.ReadLine();
 
-
             switch (inputOperator)
             {
                 case "+":
-                    Console.WriteLine(CalculatorAddition(inputNumber1, inputNumber2));
+                    Console.WriteLine(CalculatorAddition(number1, number2));
                     break;
                 case "-":
-                    Console.WriteLine(CalculatorAddition(inputNumber1, inputNumber2));
+                    Console.WriteLine(CalculatorAddition(number1, number2));
                     break;
                 case "*":
-                    Console.WriteLine(CalculatorMultiplication(inputNumber1, inputNumber2));
+                    Console.WriteLine(CalculatorMultiplication(number1, number2));
                     break;
                 case "/":
-                    Console.WriteLine(CalculatorDivision(inputNumber1, inputNumber2));
+                    Console.WriteLine(CalculatorDivision(number1, number2));
                     break;
+            }
+        }
+
+        public static double InputNumberCheck(string range)
+        {
+            while (true) 
+            { 
+                Console.WriteLine($"Enter {range} number:");
+                var inputText = Console.ReadLine();
+                if (double.TryParse(inputText, out double outputNumber))
+                { 
+                    return outputNumber; 
+                }
+                else
+                {
+                    Console.WriteLine("Invalid input.");
+                }
             }
         }
 
