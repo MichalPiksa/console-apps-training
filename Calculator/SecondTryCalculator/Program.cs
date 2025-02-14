@@ -1,4 +1,6 @@
-﻿namespace SecondTryCalculator
+﻿using System;
+
+namespace SecondTryCalculator
 {
     internal class Program
     {
@@ -22,7 +24,11 @@
                     Console.WriteLine(CalculatorMultiplication(number1, number2));
                     break;
                 case "/":
-                    Console.WriteLine(CalculatorDivision(number1, number2));
+                    double correctNumber2 = CheckNotNullDivisor(number2);
+                    Console.WriteLine(CalculatorDivision(number1, correctNumber2));
+                    break;
+                default:
+                    Console.WriteLine("Invalid operator!");
                     break;
             }
         }
@@ -64,7 +70,28 @@
             }
             else
             {
-                throw new DivideByZeroException("Not possible to divide by zero.");
+                throw new DivideByZeroException("Cannot divide by zero.");
+            }
+        }
+
+        public static double CheckNotNullDivisor(double inputNumber)
+        {
+            if (inputNumber == 0)
+            {
+                while (true)
+                {
+                    Console.WriteLine("Cannot divide by zero.");
+                    inputNumber = InputNumberCheck("second");
+
+                    if (inputNumber != 0)
+                    {
+                        return inputNumber;
+                    }
+                }
+            }
+            else 
+            {
+                return inputNumber;
             }
         }
     }
