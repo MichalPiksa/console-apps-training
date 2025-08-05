@@ -17,7 +17,7 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CalculatorVersion3", "Calcu
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CalculatorVersion3.Tests", "CalculatorVersion3.Tests\CalculatorVersion3.Tests.csproj", "{096659F4-BF1E-4ABF-8750-FF7D5D06E0EF}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FindMinimalNumber", "FindMinimalNumber\FindMinimalNumber.csproj", "{FDA99085-2C1E-4C7D-B62A-A57049DFBA6A}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ArrayBasicsAlgorithm", "ArrayBasicsAlgorithm\ArrayBasicsAlgorithm.csproj", "{FDA99085-2C1E-4C7D-B62A-A57049DFBA6A}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
