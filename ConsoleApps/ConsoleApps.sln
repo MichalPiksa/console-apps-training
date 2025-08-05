@@ -13,6 +13,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PalindromeChecker", "Palind
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FizzBuzzVersion2", "FizzBuzzVersion2\FizzBuzzVersion2.csproj", "{30C9BE55-8F74-492B-9BA4-E5CF25E9E483}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CalculatorVersion3", "CalculatorVersion3\CalculatorVersion3.csproj", "{443F5E44-7FD1-4FC9-B666-ABDED6323485}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CalculatorVersion3.Tests", "CalculatorVersion3.Tests\CalculatorVersion3.Tests.csproj", "{096659F4-BF1E-4ABF-8750-FF7D5D06E0EF}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -39,6 +43,14 @@ Global
 		{30C9BE55-8F74-492B-9BA4-E5CF25E9E483}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{30C9BE55-8F74-492B-9BA4-E5CF25E9E483}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{30C9BE55-8F74-492B-9BA4-E5CF25E9E483}.Release|Any CPU.Build.0 = Release|Any CPU
+		{443F5E44-7FD1-4FC9-B666-ABDED6323485}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{443F5E44-7FD1-4FC9-B666-ABDED6323485}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{443F5E44-7FD1-4FC9-B666-ABDED6323485}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{443F5E44-7FD1-4FC9-B666-ABDED6323485}.Release|Any CPU.Build.0 = Release|Any CPU
+		{096659F4-BF1E-4ABF-8750-FF7D5D06E0EF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{096659F4-BF1E-4ABF-8750-FF7D5D06E0EF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{096659F4-BF1E-4ABF-8750-FF7D5D06E0EF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{096659F4-BF1E-4ABF-8750-FF7D5D06E0EF}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
