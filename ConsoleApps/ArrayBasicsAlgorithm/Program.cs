@@ -4,7 +4,7 @@ class Program
 {
     static void Main()
     {
-        int[] myNumbers = { 5, 2, 8, -2, 1, 43, 0, -5, 10, 3 };
+        int[] myNumbers = { 5, 2, 8, 3, -2, 1, 43, 0, -5, 10, 3 };
         Console.WriteLine(myNumbers);
         
         int minimalNumber = FindMinimalNumber(myNumbers);
@@ -15,6 +15,9 @@ class Program
 
         int[] reversedArray = ReverseArray(myNumbers);
         Console.WriteLine("Reversed array is: { " + string.Join(", ", reversedArray) + " }");
+
+        int[] bubleSortArray = BubbleSort(myNumbers);
+        Console.WriteLine("Sorted array - bouble sort: { " + string.Join(", ", bubleSortArray) + " }");
     }
     
     static int FindMinimalNumber(int[] numbers)
@@ -68,10 +71,23 @@ class Program
         }
         return reverseArray;
     }
-    // TODO
-    /*
-    Remove duplicates from a sorted array.
-    Check if an array is a palindrome.
-    */
-    
+
+    static int[] BubbleSort(int[] numbers)
+    {
+        int tempNumber;
+        int[] sortedArray = (int[])numbers.Clone();
+        for (int x = 0; x < numbers.Length - 1; x++)
+        {
+            for (int y = 0; y < numbers.Length - 1; y++)
+            {
+                if (sortedArray[y] > sortedArray[y + 1])
+                {
+                    tempNumber = sortedArray[y];
+                    sortedArray[y] = sortedArray[y + 1];
+                    sortedArray[y + 1] = tempNumber;
+                }
+            }
+        }
+        return sortedArray;
+    }
 }

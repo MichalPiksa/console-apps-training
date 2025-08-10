@@ -8,9 +8,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ea392c87-4f8c-46d6-9c4d-c64b1323032b" name="Changes" comment="Added FindMinimalNumber method">
+    <list default="true" id="ea392c87-4f8c-46d6-9c4d-c64b1323032b" name="Changes" comment="Added FindMaximumNumber and ReverseArray methods">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.ConsoleApps/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.ConsoleApps/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/FindMinimalNumber/Program.cs" beforeDir="false" afterPath="$PROJECT_DIR$/FindMinimalNumber/Program.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ArrayBasicsAlgorithm/Program.cs" beforeDir="false" afterPath="$PROJECT_DIR$/ArrayBasicsAlgorithm/Program.cs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -20,35 +20,32 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
-  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
-  "lastFilter": {
-    "state": "OPEN",
-    "assignee": "MichalPiksa"
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;MichalPiksa&quot;
   }
-}]]></component>
-  <component name="GithubPullRequestsUISettings"><![CDATA[{
-  "selectedUrlAndAccountId": {
-    "url": "https://github.com/MichalPiksa/console-apps-training.git",
-    "accountId": "8edee29e-a493-46cb-a52e-afb7096c7434"
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/MichalPiksa/console-apps-training.git&quot;,
+    &quot;accountId&quot;: &quot;8edee29e-a493-46cb-a52e-afb7096c7434&quot;
   }
-}]]></component>
+}</component>
   <component name="HighlightingSettingsPerFile">
-    <setting file="mock:///Dummy.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="mock:///Dummy.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="mock:///Dummy.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="mock:///Dummy.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/ArrayBasicsAlgorithm/Program.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/FindMinimumNumber/Program.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/d37356fea9ed307068a31dc8ca3e5c5723187a9f164d0d76fc81bbf46f5/ThrowHelpers.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
-  <component name="KubernetesApiPersistence"><![CDATA[{}]]></component>
-  <component name="KubernetesApiProvider"><![CDATA[{
-  "isMigrated": true
-}]]></component>
+  <component name="KubernetesApiPersistence">{}</component>
+  <component name="KubernetesApiProvider">{
+  &quot;isMigrated&quot;: true
+}</component>
   <component name="MetaFilesCheckinStateConfiguration" checkMetaFiles="true" />
-  <component name="ProjectColorInfo"><![CDATA[{
-  "customColor": "",
-  "associatedIndex": 3
-}]]></component>
+  <component name="ProjectColorInfo">{
+  &quot;customColor&quot;: &quot;&quot;,
+  &quot;associatedIndex&quot;: 3
+}</component>
   <component name="ProjectId" id="30saBsCzjCeV5EIqpxYGOY6X69Y" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
@@ -114,7 +111,7 @@
       <option name="USE_EXTERNAL_CONSOLE" value="0" />
       <option name="USE_MONO" value="0" />
       <option name="RUNTIME_ARGUMENTS" value="" />
-      <option name="PROJECT_PATH" value="$PROJECT_DIR$/FindMinimalNumber/FindMinimalNumber.csproj" />
+      <option name="PROJECT_PATH" value="$PROJECT_DIR$/ArrayBasicsAlgorithm/ArrayBasicsAlgorithm.csproj" />
       <option name="PROJECT_EXE_PATH_TRACKING" value="1" />
       <option name="PROJECT_ARGUMENTS_TRACKING" value="1" />
       <option name="PROJECT_WORKING_DIRECTORY_TRACKING" value="1" />
@@ -205,7 +202,8 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1754418602567</updated>
-      <workItem from="1754418605815" duration="6745000" />
+      <workItem from="1754418605815" duration="7282000" />
+      <workItem from="1754849956084" duration="2239000" />
     </task>
     <task id="LOCAL-00001" summary="Added FindMinimalNumber method">
       <option name="closed" value="true" />
@@ -215,7 +213,15 @@
       <option name="project" value="LOCAL" />
       <updated>1754419496522</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Added FindMaximumNumber and ReverseArray methods">
+      <option name="closed" value="true" />
+      <created>1754425728729</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1754425728729</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -236,6 +242,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Added FindMinimalNumber method" />
-    <option name="LAST_COMMIT_MESSAGE" value="Added FindMinimalNumber method" />
+    <MESSAGE value="Added FindMaximumNumber and ReverseArray methods" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added FindMaximumNumber and ReverseArray methods" />
   </component>
 </project>
