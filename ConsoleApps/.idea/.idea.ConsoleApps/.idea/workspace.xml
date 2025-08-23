@@ -10,7 +10,6 @@
   <component name="ChangeListManager">
     <list default="true" id="ea392c87-4f8c-46d6-9c4d-c64b1323032b" name="Changes" comment="Added FindMaximumNumber and ReverseArray methods">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.ConsoleApps/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.ConsoleApps/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ArrayBasicsAlgorithm/Program.cs" beforeDir="false" afterPath="$PROJECT_DIR$/ArrayBasicsAlgorithm/Program.cs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -203,7 +202,7 @@
       <option name="presentableId" value="Default" />
       <updated>1754418602567</updated>
       <workItem from="1754418605815" duration="7282000" />
-      <workItem from="1754849956084" duration="2239000" />
+      <workItem from="1754849956084" duration="3939000" />
     </task>
     <task id="LOCAL-00001" summary="Added FindMinimalNumber method">
       <option name="closed" value="true" />
